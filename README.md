@@ -1,6 +1,6 @@
 # Burger
 
-***Before You Begin ***
+***Before I Begin ***
 
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 * Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
@@ -10,8 +10,9 @@
 
 
 
-Instructions
-App Setup
+## Instructions
+
+####App Setup
 
 * Create a GitHub repo called burger and clone it to your computer.
 * Make a package.json file by running npm init from the command line.
@@ -27,7 +28,7 @@ App Setup
     * body-parser
 
 
-DB Setup
+####DB Setup
 
 * Inside your burger directory, create a folder named db.
 * In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:
@@ -48,7 +49,7 @@ DB Setup
 * Close out of the MySQL command line tool: exit.
 
 
-Config Setup
+####Config Setup
 
 * Inside your burger directory, create a folder named config.
 * Create a connection.js file inside config directory.
@@ -63,7 +64,7 @@ Config Setup
 * Export the ORM object in module.exports.
 
 
-Model setup
+####Model setup
 
 * Inside your burger directory, create a folder named models.
     * In models, make a burger.js file.
@@ -72,7 +73,7 @@ Model setup
     * Export at the end of the burger.js file.
 
 
-Controller setup
+####Controller setup
 
 * Inside your burger directory, create a folder named controllers.
 * In controllers, create the burgers_controller.js file.
@@ -82,7 +83,7 @@ Controller setup
 * Create the router for the app, and export the router at the end of your file.
 
 
-View setup
+####View setup
 
 * Inside your burger directory, create a folder named views.
 * Create the index.handlebars file inside views directory.
