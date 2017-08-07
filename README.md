@@ -12,7 +12,7 @@
 
 ## Instructions
 
-####App Setup
+#### App Setup
 
 * Create a GitHub repo called burger and clone it to your computer.
 * Make a package.json file by running npm init from the command line.
@@ -28,7 +28,7 @@
     * body-parser
 
 
-####DB Setup
+#### DB Setup
 
 * Inside your burger directory, create a folder named db.
 * In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:
@@ -49,7 +49,7 @@
 * Close out of the MySQL command line tool: exit.
 
 
-####Config Setup
+#### Config Setup
 
 * Inside your burger directory, create a folder named config.
 * Create a connection.js file inside config directory.
@@ -64,7 +64,7 @@
 * Export the ORM object in module.exports.
 
 
-####Model setup
+#### Model setup
 
 * Inside your burger directory, create a folder named models.
     * In models, make a burger.js file.
@@ -73,7 +73,7 @@
     * Export at the end of the burger.js file.
 
 
-####Controller setup
+#### Controller setup
 
 * Inside your burger directory, create a folder named controllers.
 * In controllers, create the burgers_controller.js file.
@@ -83,7 +83,7 @@
 * Create the router for the app, and export the router at the end of your file.
 
 
-####View setup
+#### View setup
 
 * Inside your burger directory, create a folder named views.
 * Create the index.handlebars file inside views directory.
