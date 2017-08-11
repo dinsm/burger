@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background: url("https://images5.alphacoders.com/849/thumb-1920-849377.jpg") no-repeat center center;
+    background-size: cover;
+    /*background-image: url(https://images6.alphacoders.com/300/thumb-350-300228.jpg);*/
+    /*margin-bottom: 50px;*/
+    /*text-align: justify;
+    text-justify: inter-word;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button{
+    /*border: none;*/
+    padding:10px;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+    font-variant: small-caps;
+}
+
+.devourButton{
+    background-color: yellow;
+    /*display: inline-block;*/
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#addBurger{
+    background-color: lime;
+    /*float: right;*/
+    width: 100%;
+}
+
+#add_burger_div{
+    margin-top: 100%;
+    /*margin: auto;*/
+    width: 100%;
+    border: 3px solid #73AD21;
+    padding: 40px;
+}
+
+#devoured{
+    /*background-color: deeppink;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    color: blue;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#non-devoured{
+   /* background-color: aqua;*/
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    /*width: 100%;*/
+    border: 3px solid lightgray;
+    /*padding: 40px;*/
+}
+
+.listNewBurger{
+    /* margin: 10px;*/
+    color: aqua;
+    font-variant: small-caps;
+    font-weight: bold;
+    background: url("http://artsdeszifs.com/865-thickbox_default/sticker-ardoise-menu.jpg")no-repeat center center;
+
+}
+
+#newBurgerName {
+    width: 100%;
+    text-align: center;
+}
+
+#newBurgerList{
+    /*background: url("http://artsdeszifs.com/865-thickbox_default/sticker-ardoise-menu.jpg")no-repeat center center;*/
+    /*background-size: cover;*/
+
+}
