@@ -23,8 +23,8 @@ button{
     background-color: yellow;
     /*display: inline-block;*/
     margin: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #addBurger{
@@ -43,22 +43,23 @@ button{
 
 #devoured{
     /*background-color: deeppink;*/
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     margin-top: 20px;
     padding: 10px;
     color: blue;
     font-variant: small-caps;
     font-weight: bold;
     font-size: 20px;
+    border: 1px solid lightgray;
 }
 
 #non-devoured{
    /* background-color: aqua;*/
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     margin-top: 50px;
     padding: 10px;
     /*width: 100%;*/
-    border: 3px solid lightgray;
+    border: 1px solid lightgray;
     /*padding: 40px;*/
 }
 
